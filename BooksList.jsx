@@ -7,4 +7,7 @@ import Register from './components/Register';
 import Account from './components/Account';
 import './App.css';
 
-
+const App = () => {
+  const [books, setBooks] = useState([]);
+  const [user, setUser] = useState(null);
+}
